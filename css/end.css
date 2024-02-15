@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    top: 0;
+    right: 0;
+    left: 0;
+}
+#home{
+    padding-top: 117px;
+    background-image: url("../img/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#home h1{
+    color: rgb(119, 14, 14);
+    text-transform: capitalize;
+    font-weight: 700;
+}
+#home p{
+    width: 400px;
+}
+#home .btn1{
+    display: inline-block;
+    padding:10px 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(119, 14, 14);
+    color: #fff;
+    transition: 0.5s;
+}
+#home .btn2{
+    display: inline-block;
+    padding:10px 20px;
+    border: none;
+    outline: none;
+    border:2px solid rgb(119, 14, 14);
+    background-color: #fff;
+    transition: 0.5s;
+}
+#home .btn2:hover{
+    background-color: rgb(119, 14, 14);
+    color: #fff;
+
+}
